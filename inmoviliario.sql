@@ -13,7 +13,7 @@ create table vendedor(
     correo varchar(50),
     telefono number(10),
     foreign key (id_usuario) references usuario(id_usuario)
-)
+);
 
 create table categoria(
     id_categoria int primary key,
